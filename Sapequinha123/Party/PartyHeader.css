@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --dark: #000000;
+    --light: #f6f6f6;
+    --cor-principal: #C74AE5;
+    --cor-secundaria: #B4D902;
+    --font-principal: "Montserrat", sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 90vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(Background.png);
+}
+nav {
+    width: 100vw;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.logotype {
+    width: 5vw;
+    height: 5vh;
+    margin-right: 2vw;
+}
+.imageP {
+    width: 20vw;
+    height: 16vh;
+    position: absolute;
+    transform: translate(45vw, 0.2vh);
+}
+.navLinks {
+    height: 10vh;
+}
+.conteinFlex {
+    gap: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navListItem, a{
+    font-size: 2vh;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: var(--font-principal);
+}
+.navListItem, a:hover{
+    color: var(--cor-secundaria);
+}
+.headerPText {
+    width: 100vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.LLBanner {
+    width: 85vh;
+    margin-top: 5.4vh;
+}
+.BannerText {
+    gap: 2vw;
+    display: flex;
+    margin-bottom: 4vw;
+    flex-direction: column;
+    justify-content: center;
+}
+.textB {
+    width: 90%;
+    margin-left: 2vw;
+    color: var(--light);
+    font-family: var(--font-principal);
+}
+.DTBanner {
+    color: var(--cor-secundaria);
+}
+.bannerH1 {
+    font-size: 9vh;
+}
+.bannerP {
+    font-size: 3vh;
+}
